@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
+  def ndex
+  end
+
   def home
   end
 
