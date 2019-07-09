@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
- def home
-  # render template: "pages/#{params[:page]}"
+ def index
+  render :file => 'pages/index.html'
  end
 
   def about
