@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
- def index
-  render template: "pages/#{params[:page]}"
+ def home
+  # render template: "pages/#{params[:page]}"
  end
 
   def about
