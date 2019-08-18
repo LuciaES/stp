@@ -1,106 +1,314 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>The Soul Tribe Podcast</title>
+  <title></title>
 </head>
+<body background-image= "podcast.jpg">
+  <div class="svg-container">
+    <svg viewbox="0 0 800 400" class="svg">
+      <path id="curve" fill="#D9c1bb" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+      </path>
+    </svg>
+  </div>
 
-<body>
-  <div><h1><strong>Coming soon...</strong></h1></div>
+  <header>
+    <div class="header-links">
+    <a href="podcast.html">Podcast</a>
+    <a href="contact.html">Contact</a>
+  </div>
+    <div class= "logo"><img src="1.png" width="350px" height="350px" border= "3px" solid= "#000000;"></div>
+  </header>
+
+  <main>
+
+    <div class= "center">
+     <div class= "podcast-text">
+      The Soul Tribe Podcast was created to help you navigate through the world of spirituality, wellness, and self-development in an easy, grounded and relatable way. We break down everything from the the Akashic Records, manifesting, spirituality and so much more! We want to help expand your boundaries and bring the spiritual world to you in a fun and easy way! Get ready to be inspired with tips, tools and easy to digest information.<br><br> Let's do this!
+    </div>
+
+    <div class="info">
+      <div class= "info-card">
+        <img src="lo.jpg" class= "image2">
+        <!-- <div id= "text">The --> <br><br>Akashic Records have changed my entire life in such a wonderful way. I am so grateful to be a channel for this amazing tool that is able to help so many people <3
+          <br><br>
+        In started Akashic Records reading while on my journey to self love and acceptance. I found myself being guided to open the Akashic Records and serve others. I can deeply and honestly say I have finally found my purpose in this life. I feel like I am making a difference and helping people trust themselves and helping them realize they have everything they need within themselves.
+        <br><br>
+        The Akashic Records have been one of the greatest things to happen in my life! It has allowed me to look inward for answers, trust myself and to find peace within. We all have the answers, the knowledge and the love inside of us. We are a fountain of infinite knowledge and love, and I am here to help people connect to that and get the peace, uncondonditional love and understanding they need in their lives, themselves and situations they are transitioning.
+        <!-- </div> -->
+      </div>
+
+    <div class= "info-card">
+      <img src="lu.jpg" class= "image">
+      <!-- <div id= "text"> --><br><br>I had my Akashic Records read to me for the very first time many years ago, it was a life changing event. The reading made me feel connected with something higher then myself and it gave me the hope I needed to start creating personal changes. This reading marked the begining of my journey into the world of the all wise Akashic Records.
+        <br><br>
+      I had been given the powerful gift of information, allowing me to understand and enjoy my life better. I knew that was what I wanted to do for others.
+        <br><br>
+      I have been an Akashic Records reader for 8 years. I enjoy helping others obtain valuable information; gaining clarity and understanding. These readings will give you all the information you need to move on, feel better or make important internal shifts, all with the goal to better your life.
+      <br><br>
+      Thank you masters, librarians and beings of light for allowing me to work with the Akashic Records everyday. For opening my eyes and helping me live a more present life.</div>
+    <!-- </div> -->
+    </div>
+  </div>
+  </main>
 
 
-  <style>
-body{
-    text-align: center;
-    background: #fff;
-  font-family: sans-serif;
-  font-weight: 100;
+  <footer class= "links">
+
+      <div class ="logo-links">
+        <a href="http://www.lorenaespiga.com"><img src="lologo.png" style=" border-radius: 50%;width:82px; height:86px; border-style:solid; border-color:grey;" title="Lorena Logo" alt="Lorena Logo"></a>
+      </div>
+
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></a>
+
+      <div class ="social">
+       <a target="_blank" href="https://www.instagram.com/soul_tribe_podcast/"><i class="fa fa-3x fa-instagram"></i></a>
+   <!-- <a target="_blank" href=""><i class="fa fa-3x fa-facebook-square"></i></a>
+   <a target="_blank" href=""><i class="fa fa-3x fa-twitter-square"></i> -->
+      </div>
+
+      <div class ="logo-links">
+          <a href="http://www.luciaespiga.com"><img src="lulogo.png" style="border-radius: 50%;width:82px; height:86px; border-style:solid; border-color:black;" title="Lucia Logo" alt="Lucia Logo"></a>
+      </div>
+  </footer>
+
+</body>
+
+<style>
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
 }
-h1{
-  color: #black;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
 }
- #clockdiv{
-    font-family: sans-serif;
-    color: #black;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
+
+svg {
+  path {
+    transition: .1s;
+  }
+
+  &:hover path {
+    d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+  }
 }
-#clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #D9c1bb;
-    display: inline-block;
+
+body {
+  background: #fff;
+  color: #333;
+  position: relative;
 }
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #D9c1bb;
-    display: inline-block;
+
+header {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 150px;
+  text-align: center;
 }
-smalltext{
-    padding-top: 5px;
-    font-size: 16px;
+
+.header-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 20px;
 }
+
+ a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+a:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+a:visited {
+  color: #ffffff
+}
+
+
+.logo{
+  position: relative;
+
+}
+
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #D9c1bb 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding: 100px 0 300px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+  &::after {
+    border-right: 2px dashed #eee;
+    content: '';
+    position: absolute;
+    top: calc(10vh + 1.618em);
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+  }
+}
+
+.center {
+  background-image: url("p.png");
+
+}
+
+.podcast-text {
+  margin: 5px;
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  border-style: solid;
+  border-color: #D9c1bb;
+  border-radius: 3%;
+  text-align:center;
+  background: transparent;
+  font-family: verdana;
+  text-align: center;
+ }
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 10px;
+}
+
+.info-card {
+  margin: 10px;
+  padding: 10px;
+  float:left;
+  width:45%;
+  height: 100%;
+  text-align:center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 60px;
+  font-family: verdana;
+  text-align: center;
+
+}
+ .image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.image{
+  height: 100%;
+  width: 100%;
+  border-radius: 3%;
+  display: flex;
+
+}
+.image2 {
+  width: 50%;
+  height: 50%;
+  border-radius: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+footer {
+  background: #ffffff;
+  padding: 50px;
+  position: relative;
+  display: flex;
+}
+
+small {
+  opacity: .5;
+  font-weight: 300;
+
+  a {
+    color: inherit;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-links :hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+.social i {
+  padding: 10px;
+  text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+  transition: all ease-in-out 150ms;
+}
+.social a:nth-child(1) {
+  color: #dd4b39;
+}
+/*.social a:nth-child(2) {
+  color: #4867AA;
+}*/
+/*.social a:nth-child(3) {
+  color: #1DA1F2;
+}*/
+.social i:hover {
+  margin-top: -3px;
+  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
 </style>
-</head>
 
-<div id="clockdiv">
-  <div>
-    <span class="days" id="day"></span>
-    <div class="smalltext">Days</div>
-  </div>
-  <div>
-    <span class="hours" id="hour"></span>
-    <div class="smalltext">Hours</div>
-  </div>
-  <div>
-    <span class="minutes" id="minute"></span>
-    <div class="smalltext">Minutes</div>
-  </div>
-  <div>
-    <span class="seconds" id="second"></span>
-    <div class="smalltext">Seconds</div>
-  </div>
-</div>
-
-<p id="demo"></p>
-</body>
 <script>
+  (function() {
+  // Variables
+  var $curve = document.getElementById("curve");
+  var last_known_scroll_position = 0;
+  var defaultCurveValue = 350;
+  var curveRate = 3;
+  var ticking = false;
+  var curveValue;
 
-var deadline = new Date("Aug 19, 2019 10:00:0").getTime();
+  // Handle the functionality
+  function scrollEvent(scrollPos) {
+    if (scrollPos >= 0 && scrollPos < defaultCurveValue) {
+      curveValue = defaultCurveValue - parseFloat(scrollPos / curveRate);
+      $curve.setAttribute(
+        "d",
+        "M 800 300 Q 400 " + curveValue + " 0 300 L 0 0 L 800 0 L 800 300 Z"
+      );
+    }
+  }
 
-var x = setInterval(function() {
 
-var now = new Date().getTime();
-var t = deadline - now;
-var days = Math.floor(t / (1000 * 60 * 60 * 24));
-var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((t % (1000 * 60)) / 1000);
-document.getElementById("day").innerHTML =days ;
-document.getElementById("hour").innerHTML =hours;
-document.getElementById("minute").innerHTML = minutes;
-document.getElementById("second").innerHTML =seconds;
-if (t < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "TIME UP";
-        document.getElementById("day").innerHTML ='0';
-        document.getElementById("hour").innerHTML ='0';
-        document.getElementById("minute").innerHTML ='0' ;
-        document.getElementById("second").innerHTML = '0'; }
-}, 1000);
+  window.addEventListener("scroll", function(e) {
+    last_known_scroll_position = window.scrollY;
+
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        scrollEvent(last_known_scroll_position);
+        ticking = false;
+      });
+    }
+
+    ticking = true;
+  });
+})();
 </script>
-
-<script src="script.js"></script>
-<img src="1.png" alt="The Soul Tribe Podcast Logo">
-
-<!-- <%= image_tag "stplogo.jpg", alt: "The Soul Tribe Podcast logo"%> -->
-
-</body>
 
 </html>
