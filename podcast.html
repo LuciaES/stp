@@ -58,11 +58,20 @@
 
 <style>
   #container{
-    position: relative;
+   /* position: relative;*/
     background-color: #D9c1bb;
     height: 100%;
-    min-height: 100%;
+    /*min-height: 100%;*/
     width: 100%;
+    min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+  }
+  body{
+    height: 100%;
+ position: relative;
   }
 
   a {
@@ -134,7 +143,7 @@ footer {
   left: 0;
   width: 100%;
   padding: 15px;
-  margin-bottom: 0px;
+  bottom: 0px;
   overflow: auto;
 }
 
