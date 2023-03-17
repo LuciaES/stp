@@ -41,12 +41,13 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-image-1 {
-    min-height: 801px;
+    min-height: 1115px;
   }
 
   .u-section-1 .u-image-2 {
     width: 260px;
     min-height: 261px;
+    margin-top: 795px;
   }
 
   .u-section-1 .u-container-layout-1 {
